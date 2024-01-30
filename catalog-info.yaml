@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-gateway-service
+  description: An example of a API gateway microservice.
+  # Example for optional annotations
+  # annotations:
+    github.com/project-slug:  lokesh-pandey/API-Gateway-Service
+    serviceAddress: http://localhost:8084 
+  #   backstage.io/techdocs-ref: dir:.
+    tags:
+    - backend
+    - java
+spec:
+  type: service
+  owner: lokeshpandey001@gmail.com
+  lifecycle: experimental
